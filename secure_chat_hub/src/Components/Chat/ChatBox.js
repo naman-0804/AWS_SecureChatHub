@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import WebSocketService from "../websocket";
+import WebSocketService from "./websocket.js";
 
 const ChatBox = () => {
   const [message, setMessage] = useState("");
