@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import SignUp from "./components/Auth/SignUp";
-import SignIn from "./components/Auth/SignIn";
-import ChatBox from "./components/Chat/ChatBox";
-import FileUploader from "./components/Chat/FileUploader";
+import SignUp from "./Components/Auth/SignUp";
+import SignIn from "./Components/Auth/SignIn";
+import ChatBox from "./Components/Chat/ChatBox";
+import FileUploader from "./Components/Chat/FileUploader";
 
 const App = () => {
   const [loggedIn, setLoggedIn] = useState(false);
